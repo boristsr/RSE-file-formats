@@ -1,0 +1,32 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.2 Binary Template
+//
+//      File: 
+//   Authors: 
+//   Version: 
+//   Purpose: 
+//  Category: 
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+byte header_pad[3];
+UINT header[69]; //278 bytes
+UINT string_length;
+BYTE room_name[string_length];
+byte skip[15066];
+UINT string2_length;
+BYTE room2_name[string2_length];
+byte skip2[11493];
+UINT string3_length;
+BYTE room3_name[string3_length];
+byte skip3[168];
+UINT string4_length;
+BYTE room4_name[string4_length];
+
+// 200 @ 282
+// 201 @ 15356
+//100 @ 26859
+//101 @ 27033
+// 110 @ 27431
